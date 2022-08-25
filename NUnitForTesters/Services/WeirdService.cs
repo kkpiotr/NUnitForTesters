@@ -9,7 +9,7 @@ namespace NUnitForTesters.Services
     {
         public static string ThisMethodWillTimeout()
         {
-            Thread.Sleep(3000);
+            Thread.Sleep(1000);
             return "This method should timeout";
         }
 
